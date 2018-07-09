@@ -1,0 +1,40 @@
+section {
+  margin: 10px;
+  padding: 10px;
+}
+
+ol li {
+  color: red;
+}
+
+li:first-of-type {
+  color: blue;
+}
+
+li:last-of-type {
+  color: green;
+}
+
+li:nth-of-type(3) {
+  color: magenta;
+}
+
+ol ul li:nth-of-type(3) {
+  color: orange;
+}
+
+ul li:last-of-type {
+  color: yellow;
+}
+
+input[type=text] {
+  background-color: cyan;
+}
+
+input[type=password] {
+  background-color: yellow;
+}
+
+input[type=number] {
+  background-color: magenta;
+}
