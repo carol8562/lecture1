@@ -1,0 +1,23 @@
+@media (max-width: 499px) {
+  body {
+    background-color: lightblue;
+  }
+  h1::after {
+    content: "!!";
+  }
+  h1::before {
+    content: "Welcome ";
+  }
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color: orange;
+  }
+  h1::after {
+    content: "!!";
+  }
+  h1::before {
+    content: "Welcome to this website ";
+  }
+}
